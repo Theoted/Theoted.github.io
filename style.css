@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 .container h1 {
@@ -37,4 +37,10 @@
 
 .cat-container img {
     width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .cat-container {
+        width: 50%;
+    }
 }
